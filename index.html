@@ -1,0 +1,38 @@
+<!--Jashanpreet Kaur GLA2-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake Store Products</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our (Fake) Store</h1>
+        <!-- Filter section -->
+        <div id="filter">
+            <label for="category">Browse by Category:</label>
+            <select id="category">
+                <option value="">All</option>
+                <option value="men's clothing">Men's Clothing</option>
+                <option value="jewelery">Jewelry</option>
+                <option value="electronics">Electronics</option>
+                <option value="women's clothing">Women's Clothing</option>
+            </select>
+        </div>
+        <!-- Sort section -->
+        <div id="sort">
+            <label for="sort">Sort by Price:</label>
+            <select id="sort-order">
+                <option value="asc">Low to High</option>
+                <option value="desc">High to Low</option>
+            </select>
+        </div>
+    </header>
+    <!-- Main content area for displaying products -->
+    <main id="products"></main>
+
+    <script src="script.js"></script> <!-- Link to external JavaScript file -->
+</body>
+</html>

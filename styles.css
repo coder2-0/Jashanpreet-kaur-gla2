@@ -1,0 +1,83 @@
+/*Jashanpreet Kaur GLA2*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for the header */
+header {
+    background-color: #2c3e50;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styling for the main heading */
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Styling for filter and sort containers */
+#filter,
+#sort {
+    margin-top: 20px;
+}
+
+/* Styling for labels */
+label {
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+/* Styling for select dropdowns */
+select {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    background-color: #34495e;
+    color: #ffffff;
+}
+
+/* Styling for the main content area */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Styling for product cards */
+.product-card {
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 15px;
+    width: 300px;
+}
+
+/* Styling for product images */
+.product-card img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 5px; 
+}
+
+/* Styling for product titles */
+.product-card h2 {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+/* Styling for product details */
+.product-card p {
+    margin: 5px 0;
+}
+
+/* Styling for the first paragraph in product cards (category) */
+.product-card p:first-child {
+    color: #27ae60; 
+}
